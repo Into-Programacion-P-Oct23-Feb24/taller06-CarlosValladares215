@@ -40,35 +40,35 @@ public class Problema_02 {
 
         switch (tipo) {
             case "1":
-                porcentaje = valor * 0.01;
+                porcentaje = valor * 0.01/100;
                 costo_peaje = porcentaje + 2;
                 tipo2 = "vehículo liviano particular";
                 System.out.printf("Peaje \"Buena vía\" Propietario: %s"
-                + " Tipo: %s Valor: $%d Peaje: $%.2f",nombre, tipo2
+                + " Tipo: %s Valor: $%d Peaje: $%.2f \n",nombre, tipo2
                         ,valor,costo_peaje);
                 break;
             case "2":
-                porcentaje = valor * 0.02;
+                porcentaje = valor * 0.02/100;
                 costo_peaje = porcentaje + 2.5;
                 tipo2 = "vehículo grande particular";
                 System.out.printf("Peaje \"Buena vía\" Propietario: %s"
-                + " Tipo: %s Valor: $%d Peaje: $%.2f",nombre, tipo2,
+                + " Tipo: %s Valor: $%d Peaje: $%.2f \n",nombre, tipo2,
                 valor,costo_peaje);
                 break;
             case "3":
-                porcentaje = valor * 0.04;
+                porcentaje = valor * 0.04/100;
                 costo_peaje = porcentaje + 1.5;
                 tipo2 = "taxi";
                 System.out.printf("Peaje \"Buena vía\" Propietario: %s"
-                + " Tipo: %s Valor: $%d Peaje: $%.2f",nombre, tipo2,
+                + " Tipo: %s Valor: $%d Peaje: $%.2f \n",nombre, tipo2,
                 valor,costo_peaje);
                 break;
             case "4":
-                porcentaje = valor * 0.05;
+                porcentaje = valor * 0.05/100;
                 costo_peaje = porcentaje + 2.2;
                 tipo2 = "bus urbano";
                 System.out.printf("Peaje \"Buena vía\" Propietario: %s"
-                + " Tipo: %s Valor: $%d Peaje: $%.2f",nombre, tipo2,
+                + " Tipo: %s Valor: $%d Peaje: $%.2f \n",nombre, tipo2,
                 valor,costo_peaje);
                 break;
             default:
